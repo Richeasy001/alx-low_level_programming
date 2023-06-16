@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Random numbers will be assigned to n and will be determined if its positive, negative or zero
- * Return: 0 (Completer)
+ * main - Positive, negative and zero to be assigned to variable
+ * Return: 0 (Completed)
  */
 
 int main(void)
