@@ -6,10 +6,12 @@
  */
 int main(void)
 {
-	char n = 'a';
+	char n;
+
+	n = 'a';
 
 	while
-		(n <= 'z'); {
+		(n <= 'z') {
 		if (n == 'q' || n == 'e')
 		{
 			n++;
