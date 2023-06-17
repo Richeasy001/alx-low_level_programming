@@ -7,14 +7,13 @@ int main(void)
 {
 	int m;
 
-	for (m = 48; m <= 57; m++)
+	for (m = 48; m < 58; m++)
 	{
-		if (m == 57)
-		{
-			m++;
-			break;
-		}
 		putchar(m);
+		if (n == 57)
+		{
+			continue;
+		}
 		putchar(',');
 		putchar(' ');
 	}
