@@ -9,10 +9,14 @@ int main(void)
 
 	for (m = 48; m <= 57; m++)
 	{
+		if (m == 57)
+		{
+			m++;
+			break;
+		}
 		putchar(m);
 		putchar(',');
 		putchar(' ');
-		break;
 	}
 	putchar('\n');
 	return (0);
